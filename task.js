@@ -31,9 +31,8 @@ console.log(`Subtotal: ${Subtotal}`);
     Subtotal -= 10
    
   } 
-  
+
 //   console.log(Subtotal);
-  
 //   console.log(`flat_10_discount, amount: ${Subtotal}`);
 for (let product in products) {
   const quantity = products[product].quantity;
