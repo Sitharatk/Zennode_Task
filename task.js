@@ -41,8 +41,7 @@ for (let product in products) {
   let itemstotal = quantity * price;
 
    if (quantity > 10) {
-    price-= (5/100) * price;
-    itemstotal = quantity * price;
+      itemstotal-= (5/100)*itemstotal
     Subtotal = Subtotal - (quantity * products[product].price) + itemstotal; 
       console.log(`bulk_5_dicount ,amount:${Subtotal}`)
   } else if (totalQuantity > 20) {
